@@ -178,6 +178,16 @@ section{
   color: rgb(169, 87, 100);
 }
 
+.footer h2 {
+  margin-top: 8em;
+  text-align: center;
+  color: #fdf4f4;
+}
+.footer h3 {
+  text-align: center;
+  color: #fdf4f4;
+}
+
 /* FOOTER STYLE SOCIAL MEDIA BUTTONS */
 
 .fa-facebook-f, .fa-twitter, .fa-linkedin-in {
