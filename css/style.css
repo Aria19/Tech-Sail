@@ -5,7 +5,7 @@ body {
 /* NAVBAR AND DROPDOWN BUTTON STYLE */
 
 .navbar {
-  overflow: hidden;
+  min-height: 48px;
   background-color: #333;
 }
 .navbar a {
@@ -59,12 +59,32 @@ body {
 
 /* BANNER SLIDE SHOW */
 
+
 .mySlides img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 85.7%;
 }
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  width: auto;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.prev {
+  top: 10px;
+  padding-left: 150px;
+}
+.next {
+  padding-left: 1460px;
+}
+
 
 /* STICKY NAVBAR */
 
@@ -73,9 +93,6 @@ body {
   top: 0;
   left: 0;
   width: 100%
-}
-section{
-    height: 300px;
 }
 
 /* SEARCH BAR STYLE */
